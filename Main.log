@@ -1,0 +1,36 @@
+DEBUG 2022-02-23 21:45:56,080 Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG 2022-02-23 21:45:56,841 https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museo.csv HTTP/1.1" 200 307629
+INFO 2022-02-23 21:45:57,262 Se ha descargado el dataset.
+DEBUG 2022-02-23 21:45:57,268 Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG 2022-02-23 21:45:58,589 https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
+INFO 2022-02-23 21:45:58,605 Se ha descargado el dataset.
+DEBUG 2022-02-23 21:45:58,608 Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG 2022-02-23 21:45:59,363 https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+INFO 2022-02-23 21:45:59,791 Se ha descargado el dataset.
+INFO 2022-02-23 21:45:59,822 Se ha leido el Dataframe.
+INFO 2022-02-23 21:45:59,825 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,825 Se ha cambiado el nombre de las columnas.
+INFO 2022-02-23 21:45:59,833 Se ha leido el Dataframe.
+INFO 2022-02-23 21:45:59,834 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,834 Se ha cambiado el nombre de las columnas.
+INFO 2022-02-23 21:45:59,864 Se ha leido el Dataframe.
+INFO 2022-02-23 21:45:59,865 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,866 Se ha cambiado el nombre de las columnas.
+INFO 2022-02-23 21:45:59,867 Se ha generado el Dataset concatenado.
+INFO 2022-02-23 21:45:59,871 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,883 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,887 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,893 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,898 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,901 Se ha generado el Dataset concatenado.
+INFO 2022-02-23 21:45:59,904 Se ha generado el Dataset concatenado.
+INFO 2022-02-23 21:45:59,915 Se ha leido el Dataframe.
+INFO 2022-02-23 21:45:59,916 Se ha generado el Dataset de salida.
+INFO 2022-02-23 21:45:59,917 Se han generado las tablas.
+INFO 2022-02-23 21:45:59,988 Se ha conectado a la base de datos.
+INFO 2022-02-23 21:46:00,051 Archivo ./src/DB1.sql se ha ejecutado
+INFO 2022-02-23 21:46:00,052 Archivo ./src/DB2.sql se ha ejecutado
+INFO 2022-02-23 21:46:00,053 Archivo ./src/DB3.sql se ha ejecutado
+INFO 2022-02-23 21:46:00,363 Tabla datos_normalizados se ha creado
+INFO 2022-02-23 21:46:00,404 Tabla registros_totales se ha creado
+INFO 2022-02-23 21:46:00,483 Tabla info_cines se ha creado
